@@ -1,11 +1,12 @@
 <template>
-  <the-header-vue :title="'RememberMe'"></the-header-vue>
+  <the-header-vue title="RememberMe"></the-header-vue>
   <the-resources-vue></the-resources-vue>
 </template>
 
 <script>
 import TheHeaderVue from './components/layouts/TheHeader.vue';
 import TheResourcesVue from './components/learning-resources/TheResources.vue';
+
 export default {
   components: {
     TheHeaderVue,
